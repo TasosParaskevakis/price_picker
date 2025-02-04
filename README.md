@@ -40,7 +40,6 @@ PriceScraper is a Python-based web scraping project that reads a CSV file contai
 - **Firefox Browser:** Required for Selenium automation.
 - **Geckodriver:** Ensure it is installed and its path is provided in the configuration.
 - **Firefox Profile:** A valid Firefox profile path (used to speed up Selenium by disabling image loading, etc.).
-
 ### Python Packages
 
 The project uses the following Python packages:
@@ -50,6 +49,9 @@ The project uses the following Python packages:
 - `curl-cffi`
 - `fake-useragent`
 - (Optional) Additional libraries for proxy rotation or randomization if needed.
+
+   ```bash
+   pip install -r requirements.txt
 
 ---
 
