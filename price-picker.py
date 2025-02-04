@@ -239,10 +239,12 @@ class PriceScraper:
 
         custom_headers = {
             'User-Agent': random_ua,
-            'Accept': 'application/json, text/javascript, */*; q=0.01',
-            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'Accept-Encoding': 'gzip, deflate, br, zstd',
+            'Accept-Language': 'en-GB,en;q=0.9',
             'Referer': url,  # use the actual product URL as referer
             'Connection': 'keep-alive',
+            'VIEWPORT-WIDTH': '1920',
             'Cookie': '__cf_bm=5mvj_sh1jqQQybZYG.sSK07dq8qABQOMVH97Pfb.mH4-1738590675-1.0.1.1-yKTz4Eyi6zTh7wHNhxBfLoTd_dS17G6lX6LHQ8OSw5c9wzZ5aBV1Va_adABs3ygbwat2gI91A22D5Ia.DUq2xQ; _helmet_couch=l25oTq4PTtTucTcYqI%2BFqHi3fO9%2FC%2BBnwutM6HmQ2yTHo61FKh2ISvV7A2Fge23YNlIp3Jb%2FOliLwlJnoJncu0FtfHYtUGs3K%2B%2FZXrIhx2OkHeygRAsFhUorcwGIqCMqtOJeem%2BAh0lcaklxeoIrwPZqLd0l9PP5Fi32s%2Blq%2B56t3iiPdfuC0FXteZHwCSn1mjpUZJ8NfIb4COBy7c%2FOC3S%2BpZZFWfDhoWq7jGPy7RK9mR2diRbhg1qXjJk9HSab%2BSCUVt6sSpmsViXoS%2Bj7RJmUDHaAHRO74myLIywM5tOz7oZDAP62kBFL3O04RMFgeitgbwr3zLteQCeVD1Ff60MXzkDUitrEWzpwazqiHeYN1DKjCA%3D%3D--kIu7Jv2k1RSZElan--BZIlAB06iqhB28QE0cT82Q%3D%3D'
         }
 
