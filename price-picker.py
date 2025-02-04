@@ -289,8 +289,8 @@ class PriceScraper:
                         price_value = competitor_price
                         skroutzprice = competitor_price
                     else:
-                        price_value = 1000
-                        skroutzprice = 1000
+                        price_value = None
+                        skroutzprice = None
                 else:
                     if prices:
                         price_value = prices[0][0]
@@ -454,7 +454,7 @@ class PriceScraper:
 
 if __name__ == '__main__':
 
-    csv_file_path_tasos = '/Users/user/Desktop/urls1.csv'
+    csv_file_path_tasos = '/Users/user/Desktop/urls.csv'
     csv_file_path_server = '/Library/FileMaker Server/Data/Scripts/urls.csv'
     csv_file_path= csv_file_path_tasos
 
