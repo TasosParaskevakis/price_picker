@@ -1,0 +1,5 @@
+beautifulsoup4==4.13.1
+curl_cffi==0.7.4
+fake_useragent==2.0.3
+Requests==2.32.3
+selenium==3.141.0
