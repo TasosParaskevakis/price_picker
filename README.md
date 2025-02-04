@@ -47,7 +47,8 @@ The project uses the following Python packages:
 - `requests`
 - `beautifulsoup4`
 - `selenium`
-- `curl-cffi`  
+- `curl-cffi`
+- `fake-useragent`
 - (Optional) Additional libraries for proxy rotation or randomization if needed.
 
 ---

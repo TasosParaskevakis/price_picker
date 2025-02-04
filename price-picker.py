@@ -14,6 +14,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from curl_cffi import requests as curlr
 import random
+from fake_useragent import UserAgent
 
 
 
@@ -232,10 +233,12 @@ class PriceScraper:
         api_url = f"https://www.skroutz.gr/s/{product_id}/filter_products.json"
 
         # Define your enhanced headers
+        ua = UserAgent()
+        random_ua = ua.random
+
+
         custom_headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                        'AppleWebKit/537.36 (KHTML, like Gecko) '
-                        'Chrome/90.0.4430.85 Safari/537.36',
+            'User-Agent': random_ua,
             'Accept': 'application/json, text/javascript, */*; q=0.01',
             'Accept-Language': 'en-US,en;q=0.9',
             'Referer': url,  # use the actual product URL as referer
