@@ -454,21 +454,21 @@ class PriceScraper:
 
 if __name__ == '__main__':
 
-    csv_file_path_tasos = '/Users/user/Desktop/urls.csv'
+    csv_file_path_test = '/Users/user/Desktop/urls.csv'
     csv_file_path_server = '/Library/FileMaker Server/Data/Scripts/urls.csv'
-    csv_file_path= csv_file_path_tasos
+    csv_file_path= csv_file_path_test
 
-    output_csv_tasos = '/Users/user/Desktop/price-new1.csv'
+    output_csv_test = '/Users/user/Desktop/price-new1.csv'
     output_csv_server = '/Library/FileMaker Server/Data/Scripts/prices.csv'
-    output_csv = output_csv_tasos
+    output_csv = output_csv_test
 
-    return_file_tasos = '/Users/user/Desktop/return1.txt'
+    return_file_test = '/Users/user/Desktop/return1.txt'
     return_file_server = '/Library/FileMaker Server/Data/Scripts/return.txt'
-    return_file = return_file_tasos
+    return_file = return_file_test
 
-    profile_path_tasos = '/Users/user/Library/Application Support/Firefox/Profiles/2ek7i7id.default-1568037803549'
+    profile_path_test = '/Users/user/Library/Application Support/Firefox/Profiles/2ek7i7id.default-1568037803549'
     profile_path_server = '/Users/admin/Library/Application Support/Firefox/Profiles/e1lsnk4m.default-release'
-    profile_path = profile_path_tasos
+    profile_path = profile_path_test
     geckodriver_path = '/Library/Frameworks/Python.framework/geckodriver'
 
     scraper = PriceScraper(csv_file_path, output_csv, return_file,
