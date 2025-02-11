@@ -60,5 +60,5 @@ The project uses the following Python packages:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/pricescraper.git
-   cd pricescraper
+   git clone https://github.com/TasosParaskevakis/price_picker.git
+   cd price_picker
