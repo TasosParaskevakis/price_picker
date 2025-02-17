@@ -1,6 +1,6 @@
-# PriceScraper
+# PricePicker
 
-PriceScraper is a Python-based web scraping project that reads a CSV file containing SKUs and product URLs, scrapes pricing (and additional information) from various e-commerce websites, and writes the results to output files. The project leverages an object-oriented design and supports multiple websites—including Skroutz, glutenfreeyourself, glutenfreeonline, thanopoulos, and others—using a combination of HTTP requests (with [curl_cffi](https://pypi.org/project/curl-cffi/)), BeautifulSoup, and Selenium.
+PricePicker is a Python-based web scraping project that reads a CSV file containing SKUs and product URLs, scrapes pricing (and additional information) from various e-commerce websites, and writes the results to output files. The project leverages an object-oriented design and supports multiple websites—including Skroutz, glutenfreeyourself, glutenfreeonline, thanopoulos, and others—using a combination of HTTP requests (with [curl_cffi](https://pypi.org/project/curl-cffi/)), BeautifulSoup, and Selenium.
 
 > **Note:** This project is intended for educational and testing purposes. Always ensure your scraping activities comply with the target websites’ terms of service and local laws.
 
