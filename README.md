@@ -11,10 +11,6 @@ PricePicker is a Python-based web scraping project that reads a CSV file contain
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
 
 ---
 
