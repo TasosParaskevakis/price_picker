@@ -222,7 +222,7 @@ class PriceScraper:
     # ---------------- Site-specific scraping methods (using Selenium / API) ----------------
 
     def scrape_skroutz(self, url):
-        our_shop_id = 13618
+        our_shop_id = 12345
         attempts = 0
         try:
             product_id = url.split("/s/")[1].split("/")[0]
@@ -245,7 +245,7 @@ class PriceScraper:
             'Referer': url,  # use the actual product URL as referer
             'Connection': 'keep-alive',
             'VIEWPORT-WIDTH': '1920',
-            'Cookie': '__cf_bm=5mvj_sh1jqQQybZYG.sSK07dq8qABQOMVH97Pfb.mH4-1738590675-1.0.1.1-yKTz4Eyi6zTh7wHNhxBfLoTd_dS17G6lX6LHQ8OSw5c9wzZ5aBV1Va_adABs3ygbwat2gI91A22D5Ia.DUq2xQ; _helmet_couch=l25oTq4PTtTucTcYqI%2BFqHi3fO9%2FC%2BBnwutM6HmQ2yTHo61FKh2ISvV7A2Fge23YNlIp3Jb%2FOliLwlJnoJncu0FtfHYtUGs3K%2B%2FZXrIhx2OkHeygRAsFhUorcwGIqCMqtOJeem%2BAh0lcaklxeoIrwPZqLd0l9PP5Fi32s%2Blq%2B56t3iiPdfuC0FXteZHwCSn1mjpUZJ8NfIb4COBy7c%2FOC3S%2BpZZFWfDhoWq7jGPy7RK9mR2diRbhg1qXjJk9HSab%2BSCUVt6sSpmsViXoS%2Bj7RJmUDHaAHRO74myLIywM5tOz7oZDAP62kBFL3O04RMFgeitgbwr3zLteQCeVD1Ff60MXzkDUitrEWzpwazqiHeYN1DKjCA%3D%3D--kIu7Jv2k1RSZElan--BZIlAB06iqhB28QE0cT82Q%3D%3D'
+            'Cookie': '*'
         }
 
         while attempts < 3:
