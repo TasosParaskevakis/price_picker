@@ -11,6 +11,7 @@ PricePicker is a Python-based web scraping project that reads a CSV file contain
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
+- [News](#news)
 
 ---
 
@@ -58,3 +59,15 @@ The project uses the following Python packages:
    ```bash
    git clone https://github.com/TasosParaskevakis/price_picker.git
    cd price_picker
+
+## News
+
+Upcoming YAML Support
+
+-The project will be restructured to support YAML configurations for each site, making it easier to add new sites dynamically. The YAML configuration will define scraping rules such as element types, CSS selectors, and parsing methods. Example format:
+
+   ```bash
+    type: html
+    class: "div.price"
+```
+This update will improve maintainability and flexibility, allowing users to define scraping logic without modifying the core codebase.
